@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search_view"
+        app:iconifiedByDefault = "false"
+        app:queryHint="@string/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:id="@+id/menu_switch_layout"
+        android:title="@string/action_switch_recycler_view"
+        android:icon="@drawable/ic_grid_recycler_view"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/menu_show_all"
+        android:title="@string/show_all"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/menu_danger_0"
+        android:title="@string/danger_0"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/menu_danger_1"
+        android:title="@string/danger_1"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/menu_danger_2"
+        android:title="@string/danger_2"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/menu_danger_3"
+        android:title="@string/danger_3"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/menu_danger_4"
+        android:title="@string/danger_4"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/menu_danger_5"
+        android:title="@string/danger_5"
+        app:showAsAction="collapseActionView"/>
+</menu>

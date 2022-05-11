@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.InformationFoodAddFragment">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_title_image"
+            android:background = "?attr/colorPrimary"
+            android:contentDescription="@string/title_info"
+            android:src="@drawable/ic_information" />
+
+        <TextView
+            android:text="@string/title_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_large"
+            android:paddingEnd="@dimen/padding_large"
+            android:paddingBottom="@dimen/padding_ordinary"
+            android:layout_gravity="start"
+            android:background="?attr/colorPrimary"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textColor="?attr/colorOnPrimary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_ordinary"
+            android:paddingEnd="@dimen/padding_large"
+            android:paddingBottom="@dimen/padding_bottom_fragment"
+            android:text="@string/information_description"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+

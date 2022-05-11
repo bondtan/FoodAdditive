@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_ordinary">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_bottom_fragment">64dp</dimen>
+
+    <dimen name="margin_ordinary">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+
+    <dimen name="height_title_image">150dp</dimen>
+
+    <dimen name="corner_size">12dp</dimen>
+    <dimen name="large_corner_size">24dp</dimen>
+
+    <dimen name="stroke_width">2dp</dimen>
+    <dimen name="stroke_width_large">4dp</dimen>
+
+    <dimen name="card_elevation">4dp</dimen>
+
+</resources>

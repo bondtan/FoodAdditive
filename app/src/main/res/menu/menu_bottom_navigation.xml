@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/favoritesFoodAddFragment"
+        android:icon="@drawable/ic_bn_favorites"
+        android:title="@string/title_favorites" />
+    <item
+        android:id="@+id/listFoodAddFragment"
+        android:icon="@drawable/ic_bn_list_all"
+        android:title="@string/title_all_food_add" />
+    <item
+        android:id="@+id/informationFoodAddFragment"
+        android:icon="@drawable/ic_bn_info"
+        android:title="@string/title_info" />
+</menu>
